@@ -1,0 +1,50 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+
+        <h1>COMPANY X</h1>
+        <form>
+            <fieldset>
+                <legend>personal information</legend>
+                <label for = "fname" > First name </label> <br>
+                <input id = "fname" type = "text" name = "firstname" recquired> <br>
+
+                <label for = "lname" > last name </label> <br>
+                <input id = "lname" type = "text" name = "lastname" recquired> <br>
+
+                <label for = "bdate" > date of birth </label> <br>
+                <input id = "bdate" type = "date" name = "bday" recquired> <br>
+
+                <label for = "phoneno." > mobile no </label> <br>
+                <input id = "phoneno." type = "tel" name = "mobile1" pattern = " [0-9]{5} - [0-9]{5}" placeholder="12345-67890" recquired> <br>
+
+                <label for = "mail1" > email id </label> <br>
+                <input id = "mail1" type = "mail" name = "email1" recquired> <br>
+
+                <label for = "mail2" > alternate id </label> <br>
+                <input id = "mail2" type = "mail" name = "email2" > <br>
+            </fieldset>
+
+            <fieldset>
+                <legend>type of Service </legend>
+                <input type="checkbox" id="service1" name="service1" value="carpentry">
+                <label for="service1">carpentry</label><br>
+                <input type="checkbox" id="service2" name="service2" value="plumbing">
+                <label for="service2"> plumbing</label><br>
+                <input type="checkbox" id="service3" name="service3" value="electrician">
+                <label for="service3"> electrician</label>
+            </fieldset>
+
+            <fieldset>
+                <legend>other details</legend>
+                <textarea rows="6" cols="20" name = "description" >enter a brief description about yourself, so that your future customers can see you :)</textarea><br>
+                <label for = "myfile" >upload your photo or your shop photo :)</label> <br>
+                <input type = "file" id = "myfile" name = "myfile" >
+            </fieldset>
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
+
